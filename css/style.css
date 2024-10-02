@@ -28,7 +28,7 @@ img {
 .card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 50px;
 }
 
 h5 {
@@ -51,4 +51,9 @@ p {
   .card {
     grid-template-columns: 1fr;
   }
+}
+
+.card-items:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
 }
